@@ -7,6 +7,10 @@
     <groupId>com.nh</groupId>
     <artifactId>springboot-rocketmq</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+    <packaging>pom</packaging>
+    <modules>
+        <module>springboot-rocketmq-consumer</module>
+        <module>springboot-rocketmq-producer</module>
+    </modules>
 
 </project>
